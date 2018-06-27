@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Explore</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <script type="text/javascript" src="../js/index.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="#">
+        CreationLab
+      </a>
+      <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu" id="navMenu">
+      <div class="navbar-end">
+        <a href="./index.html" class="navbar-item">
+          Home
+        </a>
+        <a href="./create.html" class="navbar-item">
+          Create
+        </a>
+        <a href="./explore.html" class="navbar-item">
+          Explore
+        </a>
+        <a href="./share.html" class="navbar-item">
+          Share
+        </a>
+        <a class="navbar-item modal-button" data-target="contactModal">
+          Contact
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div id="contactModal" class="modal">
+    <div class="modal-background modal-button"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Modal title</p>
+        <button class="delete modal-button" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <!-- Content ... -->
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Save changes</button>
+        <button class="button modal-button">Cancel</button>
+      </footer>
+    </div>
+  </div>
+
+  <section id="explore" class="section create is-paddingless is-fullheight">
+    <div class="header has-background-link">
+      <div class="content is-large has-text-centered">
+        <h1 class="has-text-white">Explore</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae sequi, dicta fugiat quia minima earum nisi</p>
+        <a href="#" class="button is-outlined is-info">Find Out More</a>
+      </div>
+    </div>
+    <div class="body has-background-dark">
+      <div class="columns">
+        <div class="column is-6">
+          <div class="content has-text-white">
+            <h3 class="title is-2 has-text-white">Explore and Connect</h3>
+            <p class="subtitle is-5 has-text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente fuga doloribus ducimus, est quas eveniet alias
+              excepturi culpa consectetur repudiandae quia, illo. Soluta, asperiores vitae!</p>
+            <div class="is-inline-flex subtitle is-4">
+              <div class="icon check-icon">
+                <i class="light fa fa-check"></i>
+              </div>
+              <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque sequi ea totam. Sit ad repellat ipsum
+              </div>
+            </div>
+            <div class="is-inline-flex subtitle is-4">
+              <div class="icon check-icon">
+                <i class="light fa fa-check"></i>
+              </div>
+              <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque sequi ea totam. Sit ad repellat ipsum
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column is-6 is-hidden-mobile">
+          <figure class="image is-16by9">
+            <img src="../img/explore.jpg" class="round-image">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
